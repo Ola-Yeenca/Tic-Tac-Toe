@@ -147,3 +147,55 @@ button {
 }
 
 .win-color { background-color: rgb(240, 240, 240); }
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  #table_game,
+  .fixed {
+    font-size: 80px;
+  }
+
+  .td_game {
+    width: 80px;
+    height: 80px;
+  }
+
+  .x, .o {
+    font-size: 1em;
+  }
+
+  #restart {
+    font-size: 2.5em;
+    width: 0.8em;
+    height: 0.7em;
+  }
+
+  .modal-content {
+    font-size: 1.5em;
+    width: 250px; /* Adjusted width */
+    margin: 30% auto; /* Adjusted margin */
+  }
+
+  .close {
+    font-size: 24px;
+    top: -15px;
+    right: -5px;
+  }
+
+  .win-color {
+    background-color: rgb(240, 240, 240);
+  }
+}
